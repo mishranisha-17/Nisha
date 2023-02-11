@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         /*transform: translate(), scale(), rotate(), skew()*/
+         div{
+            width: 100px;
+            height: 100px;
+            font-display: inline-block;
+         }
+         .box1{
+            background-color: blueviolet;
+           /* transform: translateX(10%);*/
+          /* transform: scaley(2);*/
+         /* transform: rotatey(45deg);*/
+         /*transform: skewy(20deg);*/
+         transform: matrix(80);
+         }
+         .box2{
+            background-color: rgb(43, 226, 80);
+            /*transform: translatey(-10%);*/
+            /*transform: scale(0.5,3);*/
+           /* transform: rotate(45deg);*/
+           /*transform: skewX(40deg);*/
+         }
+         
+         .box3{
+            background-color: blue;
+           /* transform: translate(200px, 100px);*/
+           /*transform: scalex(2);*/
+           /*transform: rotatex(45deg);*/
+          /* transform: skew(20deg, 30deg);*/
+         }
+    </style>
+</head>
+<body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+    
+    
+</body>
+</html>

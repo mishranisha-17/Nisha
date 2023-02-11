@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+td{
+    width: 5vw;
+    border: 1px solid black;
+    text-align: center;
+}
+.noborder{
+    border: none;
+    padding: 0;
+}
+.headingone{
+    background-color: yellow;
+    padding: 5px;
+    font-size: 5vw;
+}
+._color_1{
+    background-color: #ff9966;
+   }
+   .color_2{
+    background-color: #dda0dd;
+   }
+   .color_3{
+    background-color: rgb(0, 183, 255);
+   }
+   .color_4{
+    background-color: #e3a0a6;
+   }
+.text_color_green{
+    color: #458619;
+}
+.text_color_blue{
+    color: blue;
+}
