@@ -1,0 +1,12 @@
+[
+    { 
+      "name": "nisha", 
+      "age": 35,
+      "batch": "7"
+    },
+    {
+       "name": "shreya",
+       "age": 35,
+       "batch": "8"
+    }
+     ]

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurent Data</title>
+
+    <script>
+        function posts(){
+
+        var postId = document.getElementById("post").value;
+        var xhttp = new XMLHttpRequest();
+        var url = "https://jsonplaceholder.tyoicode.com/todos/"+ postid;
+
+        xhttp.open("GET",url,true);
+        xhttp.send();
+
+        xhttp.onreadystatechange = function() {
+
+            if(xhttp.readyState !==4){
+                console.log("current state .", xhttp.readystate);
+            }
+            if(xhttp.readyState===4 && xhttp.status===200){
+                console.log("Response :-",xhttp.response);
+                document.getElementById("posts").innerHTML = xhttp.response;
+
+
+            }
+        };
+}
+     </script>
+</head>
+     <body>
+
+    <input type = "text".name ="postId".id = "postId"/>
+    <button onclick = "posts()">posts</button>
+    <div id = "posts"></div>
+    </body>
+</html>
