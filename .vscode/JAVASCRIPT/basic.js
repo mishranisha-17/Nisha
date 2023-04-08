@@ -32,12 +32,11 @@
 
 // // let keyword => it can only be reintialized but not redeclared;
 // let b =10;
-// b=20;
-// console.log(b)
+// console.log(b)  //can't declared varible again
 
 // // const keyword => it cannot be redeclared not can it be reintialized;
 // const c =10;
-
+// console.log(c)
 
 // functions;
 
@@ -49,7 +48,7 @@
 // fun(arg1,arg2)
 // if function in Js does not return anything , it gives us UNDEFINED.
 // 
-// function add(num1, num2);
+// function add(num1, num2){;
 // let num3 = num1+num2;
 
 // }
@@ -61,10 +60,10 @@
 
 // Anonymous functions;
 // functional expression ;
-let fun =function (num1,num2){
+// let fun =function (num1,num2){
     
-}
-console.log(fun(2,3));
+// }
+// console.log(fun(2,3));
 
 
 

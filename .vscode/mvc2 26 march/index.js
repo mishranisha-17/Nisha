@@ -7,6 +7,7 @@ mongoose.connect("mongodb+srv://batch6:herovired@cluster0.aqifkg2.mongodb.net/Ba
 
 const root= require("./Rouer/userRouter")
 app.use("/root");
+
 app.listen(port,()=>{
     console.log("port is running on 3000");
 

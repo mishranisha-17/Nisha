@@ -11,16 +11,16 @@ app.get("/student", function (req, res) {
 
 // Read .json file
 
-fs.readFile("/student.json",(err,data)=>
-{
-    if(err){
-    console.log("there is an error");
-}
-else{
-    console.log(data);
-    res.send(data)
-}
-});
+// fs.readFile("/student.json",(err,data)=>
+// {
+//     if(err){
+//     console.log("there is an error");
+// }
+// else{
+//     console.log(data);
+//     res.send(data)
+// }
+// });
 
 app.listen(port, () => {
   console.log("Server is running on ", port);

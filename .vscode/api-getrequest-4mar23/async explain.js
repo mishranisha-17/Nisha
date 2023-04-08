@@ -16,10 +16,10 @@ setTimeout(function(){
 //function as an object
 //function as an argument of an function in js
 // js everything 
-console.log("before");
-apicall(1,function(user){
-console.log(user);
-});
-    console.log("after");
+// console.log("before");
+// apicall(1,function(user){
+// console.log(user);
+// });
+//     console.log("after");
     //function as an argument
 

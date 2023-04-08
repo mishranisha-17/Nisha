@@ -1,5 +1,5 @@
-const UserModel = require("../models/USerSchema")
-const jwt = require('jsonwebtoken');
+const Usermodel = require("../models/USerSchema")
+
 // importing db model to store ther credentials of user;
 
 function User(req, res, next) {

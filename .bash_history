@@ -20,3 +20,20 @@ git commit -m "first commit"
 git branch -m main
 git remote add origin https://github.com/mishranisha-17/api-getrequest-4mar23.git
 git push -u
+git clone 
+git init
+git add .
+https://github.com/mishranisha-17/api-getrequest-4mar23.git
+git commit -m "first commit"
+git branch -m 
+git push -u origin main
+git remote add origin https://github.com/mishranisha-17/api-getrequest-4mar23.git
+git push -u origin main
+git remote add origin https://github.com/mishranisha-17/api-getrequest-4mar23.git
+c
+git init
+git add .
+git commit -m "first commit"
+git branch -m main
+git remote add origin https://github.com/mishranisha-17/mvc2-26march.git
+git push -u origin main
